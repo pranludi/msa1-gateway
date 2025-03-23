@@ -9,13 +9,13 @@ jhipster 레지스터리 기동
 ```
 cd gateway
 
-docker-compose -f src/main/docker/jhipster-registry.yml up
+docker-compose -f src/main/docker/jhipster-registry.yml up -d
 ```
 카프카 기동
 ```
 cd gateway
 
-docker-compose -f src/main/docker/kafka.yml up
+docker-compose -f src/main/docker/kafka.yml up -d
 ```
 몽고db 기동
 ```
